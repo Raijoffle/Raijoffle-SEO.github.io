@@ -1,8 +1,10 @@
-<script lang="ts" setup></script>
+<script lang="ts" setup>
+import MainHeader from "../components/MainHeader.vue";
+</script>
 
 <template>
     <div class="MainLayout">
-        <div>Header</div>
+        <MainHeader />
         <div class="PageViewer"><slot /></div>
         <div>Footer</div>
     </div>
@@ -17,5 +19,6 @@
     justify-content: center;
     align-items: center;
     align-content: center;
+    margin-top: 60px;
 }
 </style>
