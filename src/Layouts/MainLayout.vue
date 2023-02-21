@@ -1,12 +1,14 @@
 <script lang="ts" setup>
-import MainHeader from "../components/MainHeader.vue";
+import MainHeader from "@/components/MainHeader.vue";
+// eslint-disable-next-line
+import MainFooter from "@/components/MainFooter.vue";
 </script>
 
 <template>
     <div class="MainLayout">
         <MainHeader />
         <div class="PageViewer"><slot /></div>
-        <div>Footer</div>
+        <MainFooter />
     </div>
 </template>
 
