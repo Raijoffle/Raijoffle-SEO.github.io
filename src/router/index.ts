@@ -22,9 +22,25 @@ const router = createRouter({
             },
         },
         {
-            path: "/login",
-            name: "login",
-            component: () => import("../views/LoginView.vue"),
+            path: "/seo-tools",
+            name: "seo_tools",
+            component: () => import("../views/SeoToolsView.vue"),
+            meta: {
+                layout: MainLayout,
+            },
+        },
+        {
+            path: "/contact",
+            name: "contact",
+            component: () => import("../views/ContactView.vue"),
+            meta: {
+                layout: MainLayout,
+            },
+        },
+        {
+            path: "/dashboard-login",
+            name: "dashboard_login",
+            component: () => import("../views/DashboardLoginView.vue"),
             meta: {
                 layout: LoginLayout,
             },

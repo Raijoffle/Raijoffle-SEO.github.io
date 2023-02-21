@@ -17,11 +17,12 @@
     align-items: center;
     align-content: center;
     box-sizing: border-box;
+    margin-top: 30px;
     padding: 0 20px;
-    border-bottom: 1px solid #141414;
+    border-top: 1px solid #141414;
     transition: all 0.3s ease-in-out;
     &:hover {
-        background-color: red;
+        background-color: blue;
     }
 }
 </style>
