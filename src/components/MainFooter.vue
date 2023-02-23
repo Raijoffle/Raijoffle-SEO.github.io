@@ -23,6 +23,7 @@
     transition: all 0.3s ease-in-out;
     &:hover {
         background-color: blue;
+        color: #fff;
     }
 }
 </style>
