@@ -35,32 +35,25 @@
 .logo img {
     height: 100%;
 }
-nav a {
-    color: #141414;
-    padding: 0px 10px;
-    text-decoration: none;
-
-    // a::hover {
-    //     color: #cf0061;
-    // }
-    // & a.router-link-active {
-    //     color: #cf0061;
-    // }
-}
-nav a:hover {
-    color: #cf0061;
-    filter: drop-shadow(0px 5px 5px #141414);
-}
-nav a.router-link-active {
-    color: #cf0061;
+nav {
+    a {
+        color: #141414;
+        padding: 0px 10px;
+        text-decoration: none;
+    }
+    & a:hover {
+        color: #cf0061;
+        filter: drop-shadow(0px 5px 5px #141414);
+    }
+    & a.router-link-active {
+        color: #cf0061;
+    }
 }
 
 nav a:last-of-type {
     padding: 0px 0px;
 }
-// nav a.router-link-exact-active {
-//     color: red;
-//
+
 nav a.router-link-exact-active:hover {
     background-color: transparent;
 }

@@ -1,8 +1,10 @@
-<script setup lang="ts"></script>
+<script setup lang="ts">
+import WelcomeMessageView from "@/components/HomePageElements/WelcomeMessageView.vue";
+</script>
 
 <template>
     <div class="home">
-        <h1>This is an home page</h1>
+        <WelcomeMessageView />
     </div>
 </template>
 <style scoped></style>
